@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 21px 246px 173px 121px;
+}
+
+.container ul {
+  margin-top: 100px;
+  display: flex;
+  list-style-type: none;
+}
+
+.container ul img {
+  width: 22px;
+  height: 22px;
+}
+
+.container ul li p {
+  width: 130px;
+  margin-left: 11px;
+}
+
+.container ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-container {
+  display: flex;
+}
+
+.box-1 {
+  width: 628px;
+  margin: 29px 140px 0 0;
+}
+
+.box-1 h1 {
+  color: #000;
+  font-family: Roboto Slab;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+
+.box-1 p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.box-2 img {
+  width: 304px;
+  height: 356px;
+}
+
+.bottum-container {
+  padding: 19px 18px 0 26px;
+  width: 483px;
+  height: 200px;
+  margin: 87px 0 0 280px;
+  border-radius: 5px;
+  background: #1e4681;
+}
+
+.bottum-container p {
+  color: #fff;
+  font-family: Roboto Slab;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.bottum-container h2 {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
