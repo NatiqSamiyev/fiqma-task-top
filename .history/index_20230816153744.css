@@ -38,14 +38,12 @@ line-height: 115%;
 }
 
 .top-container {
-  margin-top: 29px;
   display: flex;
-  justify-content: space-between;
 }
 
 .text-container {
   width: 628px;
-
+  margin: 29px 0px 0 0;
 }
 
 .text-container h1 {
@@ -66,22 +64,25 @@ line-height: 115%;
   line-height: 150%;
 }
 
+
+
 .box-2 img {
   width: 304px;
   height: 356px;
+  margin-left: 140px;
 }
 
-.bottom-container {
-  padding: 19px 18px 19px 26px;
+.bottum-container {
+  padding: 19px 18px 0 26px;
   width: 483px;
+  height: 200px;
   margin: auto;
   margin-top: 87px ;
   border-radius: 5px;
   background: #1e4681;
 }
 
-.bottom-container p {
-  margin-bottom: 5px;
+.bottum-container p {
   color: #fff;
   font-family: Roboto Slab;
   font-size: 25px;
@@ -90,7 +91,7 @@ line-height: 115%;
   line-height: 130%;
 }
 
-.bottom-container h2 {
+.bottum-container h2 {
   color: #fff;
   text-align: right;
   font-family: Roboto;

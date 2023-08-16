@@ -72,7 +72,7 @@ line-height: 115%;
 }
 
 .bottom-container {
-  padding: 19px 18px 19px 26px;
+  padding: 19px 18px 19 26px;
   width: 483px;
   margin: auto;
   margin-top: 87px ;
@@ -81,7 +81,6 @@ line-height: 115%;
 }
 
 .bottom-container p {
-  margin-bottom: 5px;
   color: #fff;
   font-family: Roboto Slab;
   font-size: 25px;

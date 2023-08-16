@@ -17,9 +17,6 @@
 }
 .container ul li{
   list-style-type: none;
-  margin-right: 25px;
-  display: flex;
- align-items: center;
 }
 
 .container ul img {
@@ -28,6 +25,7 @@
 }
 
 .container ul li p {
+  width: 130px;
   margin-left: 11px;
   color: #000;
 font-family: Roboto;
@@ -37,18 +35,21 @@ font-weight: 400;
 line-height: 115%;
 }
 
-.top-container {
-  margin-top: 29px;
+.container ul li {
   display: flex;
   justify-content: space-between;
 }
 
-.text-container {
-  width: 628px;
-
+.top-container {
+  display: flex;
 }
 
-.text-container h1 {
+.box-1 {
+  width: 628px;
+  margin: 29px 0px 0 0;
+}
+
+.box-1 h1 {
   color: #000;
   font-family: Roboto Slab;
   font-size: 80px;
@@ -57,7 +58,7 @@ line-height: 115%;
   line-height: 101.385%;
 }
 
-.text-container p {
+.box-1 p {
   color: #000;
   font-family: Roboto;
   font-size: 20px;
@@ -66,22 +67,26 @@ line-height: 115%;
   line-height: 150%;
 }
 
+.box-2 {
+  margin-left: 140px;
+}
+
 .box-2 img {
   width: 304px;
   height: 356px;
 }
 
-.bottom-container {
-  padding: 19px 18px 19px 26px;
+.bottum-container {
+  padding: 19px 18px 0 26px;
   width: 483px;
+  height: 200px;
   margin: auto;
   margin-top: 87px ;
   border-radius: 5px;
   background: #1e4681;
 }
 
-.bottom-container p {
-  margin-bottom: 5px;
+.bottum-container p {
   color: #fff;
   font-family: Roboto Slab;
   font-size: 25px;
@@ -90,7 +95,7 @@ line-height: 115%;
   line-height: 130%;
 }
 
-.bottom-container h2 {
+.bottum-container h2 {
   color: #fff;
   text-align: right;
   font-family: Roboto;
