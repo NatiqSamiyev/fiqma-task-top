@@ -112,7 +112,7 @@
 
   .container ul li {
     margin-right: 14px;
-
+    align-items: baseline;
   }
 
   .container ul img {
@@ -178,6 +178,7 @@
 
   .container ul li {
     margin-right: 11px;
+    align-items: center;
   }
 
   .container ul img {

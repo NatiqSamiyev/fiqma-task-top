@@ -112,7 +112,7 @@
 
   .container ul li {
     margin-right: 14px;
-
+    align-items: baseline;
   }
 
   .container ul img {
@@ -178,6 +178,7 @@
 
   .container ul li {
     margin-right: 11px;
+    align-items: center;
   }
 
   .container ul img {
@@ -193,7 +194,6 @@
   .top-container {
     margin-top: 8px;
     flex-direction: column;
-    align-items: center;
   }
 
   .text-container {
@@ -218,7 +218,7 @@
     padding: 9px 7px 3px 12px;
     width: 225px;
     margin-top: 47px;
-
+    border-radius: 2px;
   }
 
   .bottom-container p {
@@ -227,6 +227,7 @@
   }
 
   .bottom-container h2 {
+    text-align: right;
     font-size: 10px;
   }
 }

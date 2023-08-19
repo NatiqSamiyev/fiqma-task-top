@@ -112,7 +112,7 @@
 
   .container ul li {
     margin-right: 14px;
-
+    align-items: baseline;
   }
 
   .container ul img {
